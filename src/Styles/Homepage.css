@@ -1,3 +1,148 @@
 body {
-  background-color: #b0b8c4;
+  font-family: 'Philosopher', sans-serif;
+  background-color: #dfe4f2;
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
+  width: 100vw;
+  height: 100vh;
+}
+
+h2 {
+  font-size: 8em;
+  text-align: center;
+  /*padding: 18%;*/
+}
+
+.Sunflower {
+  background-image: url('./sunflower2.jpg');
+  height: 100vh;
+  width: 100vw;
+  float: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /*opacity: .5;*/
+}
+
+.Text-photo {
+      list-style: none;
+      margin-top: 25%;
+}
+
+h4 {
+    text-align: center;
+    font-size: 4em;
+    z-index: 2;
+}
+/* ---- PROJECTS BEGINNING */
+.Projects {
+    /*margin-top: 15%;*/
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+.Projects h1 {
+  font-size: 6em;
+  color: black;
+  margin-left: -10%;
+}
+
+/* --- ETSY PROJECT STYLING ---*/
+
+.etsy-flex {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+}
+
+.bottom-flex {
+  display: flex;
+  width: 100vw;
+  margin-left: 15%;
+    margin-top: -9%;
+}
+
+.etsy h3 {
+    color: black;
+    /*margin-left: 15%;*/
+    width: 45vw;
+}
+
+.etsy h5 {
+    color: black;
+    font-size: 2em;
+    width: 45vw;
+    margin-left: 5%;
+}
+
+.etsy h4 {
+    text-align: left;
+    color: black;
+    font-size: 1.4em;
+    margin-bottom: 1%;
+}
+
+.etsy ul {
+  font-size: 1.4em;
+  text-align: left;
+  /*margin-left: 15%;*/
+}
+
+.etsy_image {
+  background-image: url('../Styles/Etsy_Project.png');
+  width: 40vw;
+  height: 40vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+/* --- FANDOMONIUM E-COMMERCE SITE STYLING --- */
+
+.fan-flex {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+
+.bottom-fan-flex {
+  display: flex;
+  width: 100vw;
+  margin-left: 15%;
+  margin-top: -9%;
+}
+
+.Fandomonium h3 {
+    color: black;
+    /*margin-left: 15%;*/
+    width: 45vw;
+}
+
+.Fandomonium h5 {
+    color: black;
+    font-size: 2em;
+    width: 45vw;
+    margin-left: 5%;
+}
+
+.Fandomonium h4 {
+    text-align: left;
+    color: black;
+    font-size: 1.4em;
+    margin-bottom: 1%;
+}
+
+.Fandomonium ul {
+  font-size: 1.4em;
+  text-align: left;
+}
+
+.fan_image {
+  background-image: url('../Styles/fandomonium.png');
+  width: 40vw;
+  height: 40vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
 }
