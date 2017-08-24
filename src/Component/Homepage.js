@@ -8,15 +8,14 @@ class Homepage extends Component {
     <div>
       <h2>Brittany Arsi</h2>
       <div className='Text-photo'>
-        <h4>Scroll to See My Work</h4>
-        <a href="#projects"><h4>Scroll</h4></a>
+        <h4>I am currently available to discuss new projects.</h4>
+        <a href="#projects"><h4>Scroll to See My Work</h4></a>
         <div className="Sunflower">
         </div>
       </div>
 
 
       <div className="Projects">
-        <a name="projects"></a>
         <h1>Projects</h1>
 
         <div className="etsy">
@@ -39,6 +38,7 @@ class Homepage extends Component {
             </ul>
         </div>
         </div>
+        <a name="projects"></a>
 
         <div className="Fandomonium">
           <div className="fan-flex">
@@ -59,13 +59,56 @@ class Homepage extends Component {
             <ul>
               <a href="https://github.com/Team-KillinIt/TIY-TheIronStore"><h4>See the Code</h4></a>
             </ul>
-        </div>
+          </div>
         </div>
 
 
+        <div className="News">
+          <div className="news-flex">
+              <div className="news-left-side">
+                <h3>News with React</h3>
+                <h5>A project early on in learning React where I pulled from a news sourced API to generate this app and practice life cycles. </h5>
+              </div>
+              <img className="news_image"/>
+          </div>
+          <div className="bottom-news-flex">
+            <ul>
+                <h4>Tools:</h4>
+                <li>React</li>
+                <li>CSS</li>
+                <li>Github</li>
+            </ul>
+            <ul>
+              <a href="https://github.com/BrickOHeads/news_with_react"><h4>See the Code</h4></a>
+            </ul>
+          </div>
+        </div>
+
+
+        <div className="Soundcloud">
+          <div className="music-flex">
+              <div className="music-left-side">
+                <h3>Music Box: SoundCloud API Music Application</h3>
+                <h5>An application build in JavaScript pulling from the Soundcloud API. Users can search an artist and the Music Box will post the songs available by that artist.</h5>
+              </div>
+              <img className="music_image"/>
+          </div>
+          <div className="bottom-music-flex">
+            <ul>
+                <h4>Tools:</h4>
+                <li>JavaScript</li>
+                <li>CSS</li>
+                <li>Github</li>
+            </ul>
+            <ul>
+              <a href="https://github.com/BrickOHeads/soundcloud"><h4>See the Code</h4></a>
+            </ul>
+          </div>
+        </div>
 
 
       </div>
+
 
     </div>
     );

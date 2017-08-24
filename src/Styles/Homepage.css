@@ -59,7 +59,7 @@ h4 {
   display: flex;
   width: 100vw;
   margin-left: 15%;
-    margin-top: -9%;
+  margin-top: -8%;
 }
 
 .etsy h3 {
@@ -110,7 +110,7 @@ h4 {
   display: flex;
   width: 100vw;
   margin-left: 15%;
-  margin-top: -9%;
+  margin-top: -8%;
 }
 
 .Fandomonium h3 {
@@ -140,6 +140,106 @@ h4 {
 
 .fan_image {
   background-image: url('../Styles/fandomonium.png');
+  width: 40vw;
+  height: 40vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+/* --- NEWS WITH REACT STYLING --- */
+
+.news-flex {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+
+.bottom-news-flex {
+  display: flex;
+  width: 100vw;
+  margin-left: 15%;
+  margin-top: -8%;
+}
+
+.News h3 {
+    color: black;
+    /*margin-left: 15%;*/
+    width: 45vw;
+}
+
+.News h5 {
+    color: black;
+    font-size: 2em;
+    width: 45vw;
+    margin-left: 5%;
+}
+
+.News h4 {
+    text-align: left;
+    color: black;
+    font-size: 1.4em;
+    margin-bottom: 1%;
+}
+
+.News ul {
+  font-size: 1.4em;
+  text-align: left;
+}
+
+.news_image {
+  background-image: url('../Styles/news.png');
+  width: 40vw;
+  height: 40vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+/* --- SoundCloud Styling --- */
+
+.music-flex {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+
+.bottom-music-flex {
+  display: flex;
+  width: 100vw;
+  margin-left: 15%;
+  margin-top: -8%;
+}
+
+.Soundcloud h3 {
+    color: black;
+    /*margin-left: 15%;*/
+    width: 45vw;
+}
+
+.Soundcloud h5 {
+    color: black;
+    font-size: 2em;
+    width: 45vw;
+    margin-left: 5%;
+}
+
+.Soundcloud h4 {
+    text-align: left;
+    color: black;
+    font-size: 1.4em;
+    margin-bottom: 1%;
+}
+
+.Soundcloud ul {
+  font-size: 1.4em;
+  text-align: left;
+}
+
+.music_image {
+  background-image: url('../Styles/soundcloud.png');
   width: 40vw;
   height: 40vh;
   background-size: contain;
