@@ -1,26 +1,26 @@
 .Header {
   font-family: 'Philosopher', sans-serif;
   height: 100vh;
-  width: 44%;
+  width: 44vw;
   color: white;
   float: left;
   background-color: #f53952;
   background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
-  margin-top: -4.6%;
+  /*margin-top: %;*/
 }
 
 h1 {
   margin-top: 13%;
-  font-size: 3.8em;
+  font-size: 2.6em;
   text-align: center;
   color: white;
-  margin-left: 15%;
+  margin-left: 22%;
 }
 
 .master_icons {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 44vw;
 }
 
 .icons {
@@ -33,13 +33,12 @@ h1 {
 .rocket {
   display: flex;
   margin-left: 5%;
-
 }
 
 h3{
 	color: #fff;
-	font-size: 2.8em;
-	padding: 20px;
+	font-size: 2em;
+	/*padding: 20px;*/
 	text-align: center;
 }
 

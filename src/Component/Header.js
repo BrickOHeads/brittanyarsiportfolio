@@ -22,7 +22,7 @@ class Header extends Component {
                />
              <h1>A Little About Me</h1>
         </div>
-            <h2 className="sentence">I'm Brittany and I
+            <h2 className="sentence">Hi I'm Brittany, <br></br>I
               <div className="pushEffect">
                 <span>Am a Front End Web Developer.</span>
                 <span>Am Creative at Problem Solving.</span>

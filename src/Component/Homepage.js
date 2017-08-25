@@ -17,6 +17,7 @@ class Homepage extends Component {
 
       <div className="Projects">
         <h1>Projects</h1>
+          <a name="projects"></a>
 
         <div className="etsy">
           <div className="etsy-flex">
@@ -38,7 +39,6 @@ class Homepage extends Component {
             </ul>
         </div>
         </div>
-        <a name="projects"></a>
 
         <div className="Fandomonium">
           <div className="fan-flex">
