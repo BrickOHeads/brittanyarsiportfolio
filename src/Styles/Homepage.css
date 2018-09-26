@@ -1,7 +1,18 @@
+@media only screen and (max-device-width: 700px){
+body {
+  color: black;
+    }
+}
+
+
 body {
   font-family: 'Philosopher', sans-serif;
   background-color: #dfe4f2;
-  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
+  /*background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");*/
+  background-image: url('./Images/blue.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   width: 100vw;
   height: 100vh;
 }

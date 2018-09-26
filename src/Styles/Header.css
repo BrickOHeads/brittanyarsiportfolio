@@ -1,3 +1,19 @@
+@media only screen and (max-device-width: 700px){
+
+.Header {
+  width: 100%;
+  float: top;
+  height: 10%;
+}
+
+h1 {
+    color: red;
+    }
+}
+
+
+@@media only screen and (min-device-width: 1000px) {
+
 .Header {
   font-family: 'Philosopher', sans-serif;
   height: 100vh;
@@ -123,6 +139,7 @@ h3{
 	30% { opacity: 0; -ms-transform: translateX(0px); }
 	80% { opacity: 0; }
 	100% { opacity: 0; }
+}
 }
 /*Footer*/
 
